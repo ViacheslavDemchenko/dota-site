@@ -1,0 +1,1291 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <title>Новый проект</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="icon" href="#!" type="image/x-icon">
+    <link rel="shortcut icon" href="#!" type="image/x-icon">
+    <link rel="apple-touch-icon" href="#!"><!--[if lte IE 10]>
+    <p class="browser-upgrade">Вы используете устаревшую версию браузера. Пожалуйста </p><a class="browser-upgrade__link" href="http://browsehappy.com/">обновите свой браузер</a><![endif]-->
+  </head>
+  <body>
+    <div class="container-fluid">
+      <header class="header">
+        <div class="header-top">
+          <div class="logo"><img src="img/icons/logo.svg" width="153" height="40" alt="Логотип сайта Дота 2"></div>
+          <nav class="header-nav" role="menu">
+            <ul class="nav-list">
+                        <li class="nav__item" role="menuitem"><a class="nav__link" href="#">Форум</a></li>
+                        <li class="nav__item" role="menuitem"><a class="nav__link" href="#">Новости</a></li>
+                        <li class="nav__item" role="menuitem"><a class="nav__link" href="#">Киберспорт</a></li>
+                        <li class="nav__item" role="menuitem"><a class="nav__link" href="#">База знаний</a></li>
+                        <li class="nav__item" role="menuitem"><a class="nav__link" href="#">Стримы</a></li>
+                        <li class="nav__item" role="menuitem"><a class="nav__link" href="#">Видео</a></li>
+                        <li class="nav__item" role="menuitem"><a class="nav__link" href="#">Мемы</a></li>
+                        <li class="nav__item" role="menuitem"><a class="nav__link" href="#">Услуги</a></li>
+            </ul>
+          </nav>
+          <div class="userboard"><a class="userboard-search" href="#!">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16">
+                <use xlink:href="img/icons/sprite.svg#search"></use>
+              </svg></a>
+            <div class="userboard-list"><a class="userboard-messages" href="#!">
+                <div class="messages-count">13</div>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16">
+                  <use xlink:href="img/icons/sprite.svg#email"></use>
+                </svg></a><a class="userboard-notify" href="#!">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16">
+                  <use xlink:href="img/icons/sprite.svg#notify"></use>
+                </svg></a>
+              <div class="userboard-login">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16">
+                  <use xlink:href="img/icons/sprite.svg#login"></use>
+                </svg><a class="login__text" href="#!">Войти</a>
+              </div><a class="userboard-avatar" href="#!"><img src="img/avatar.jpg" width="40" height="40" alt="Аватар пользователя"></a>
+            </div>
+          </div>
+          <div class="user-menu">
+            <div class="user-menu-top">
+              <div class="user-menu__avator"><img src="img/avatar.jpg" width="40" height="40" alt="Аватар пользователя"></div>
+              <div class="user-menu-ihfo"><a class="user__name" href="#!">deadmoby</a><a class="user__affiliation" href="#!">Команда сайта</a></div>
+            </div>
+            <div class="user-menu-list">
+              <div class="user-menu__item">
+                <div class="user-menu__icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16">
+                    <use xlink:href="img/icons/sprite.svg#user"></use>
+                  </svg>
+                </div><a class="user-menu__link" href="#!">Профиль</a>
+              </div>
+              <div class="user-menu__item">
+                <div class="user-menu__icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16">
+                    <use xlink:href="img/icons/sprite.svg#profile"></use>
+                  </svg>
+                </div><a class="user-menu__link" href="#!">Настройки профиля</a>
+              </div>
+              <div class="user-menu__item">
+                <div class="user-menu__icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16">
+                    <use xlink:href="img/icons/sprite.svg#security"></use>
+                  </svg>
+                </div><a class="user-menu__link" href="#!">Безопасность</a>
+              </div>
+              <div class="user-menu__item">
+                <div class="user-menu__icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16">
+                    <use xlink:href="img/icons/sprite.svg#notify"></use>
+                  </svg>
+                </div><a class="user-menu__link" href="#!">Уведомления</a>
+              </div>
+              <div class="user-menu__item">
+                <div class="user-menu__icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16">
+                    <use xlink:href="img/icons/sprite.svg#blacklist"></use>
+                  </svg>
+                </div><a class="user-menu__link" href="#!">Игнорлист</a>
+              </div>
+              <div class="user-menu__item">
+                <div class="user-menu__icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16">
+                    <use xlink:href="img/icons/sprite.svg#logout"></use>
+                  </svg>
+                </div><a class="user-menu__link" href="#!">Выйти</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <div class="container">
+          <div class="main-top">
+            <h1 class="main__title">Матчи</h1>
+            <div class="competition">
+              <div class="competition__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16">
+                  <use xlink:href="img/icons/sprite.svg#cup"></use>
+                </svg>
+              </div>
+              <div class="competition__name">The International 2020: $29,378,487</div>
+            </div>
+            <div class="slider-controls">
+              <div class="arrow__left">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="6" height="10">
+                  <use xlink:href="img/icons/sprite.svg#arrow-left"></use>
+                </svg>
+              </div>
+              <ul class="dot-list">
+                <li class="dot dot--active"></li>
+                <li class="dot"></li>
+                <li class="dot"></li>
+                <li class="dot"></li>
+              </ul>
+              <div class="arrow__right">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="6" height="10">
+                  <use xlink:href="img/icons/sprite.svg#arrow-left"></use>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="top-slider" id="top-slider">
+            <div class="slide">
+              <div class="teams teams">
+                <div class="team-left team-left--lower">
+                  <div class="team__logo">
+                    <picture>
+                      <source srcset="img/sidebar-img/team-6@1x.webp, img/sidebar-img/team-6@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/team-6@1x.png" srcset="img/sidebar-img/team-6@2x.png 2x" alt="Логотип команды" width="36" height="36">
+                    </picture>
+                  </div>
+                  <div class="team__name">Name T</div>
+                </div>
+                <div class="center-info center-info--short"> 
+                  <div class="top-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16">
+                      <use xlink:href="img/icons/sprite.svg#slide-top-icon"></use>
+                    </svg>
+                  </div>
+                  <div class="center-cup">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16">
+                      <use xlink:href="img/icons/sprite.svg#cup"></use>
+                    </svg>
+                  </div>
+                </div>
+                <div class="team-right team-right--lower">
+                  <div class="team__logo">
+                    <picture>
+                      <source srcset="img/sidebar-img/team-2@1x.webp, img/sidebar-img/team-2@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/team-2@1x.png" srcset="img/sidebar-img/team-2@2x.png 2x" alt="Логотип команды" width="36" height="36">
+                    </picture>
+                  </div>
+                  <div class="team__name">NAVI</div>
+                </div>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="teams">
+                <div class="team-left team-left--lower">
+                  <div class="team__logo">
+                    <picture>
+                      <source srcset="img/sidebar-img/team-5@1x.webp, img/sidebar-img/team-5@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/team-5@1x.png" srcset="img/sidebar-img/team-5@2x.png 2x" alt="Логотип команды" width="36" height="36">
+                    </picture>
+                  </div>
+                  <div class="team__name">Name T</div>
+                </div>
+                <div class="center-info center-info--short"> 
+                  <div class="top-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16">
+                      <use xlink:href="img/icons/sprite.svg#slide-top-icon"></use>
+                    </svg>
+                  </div>
+                  <div class="center-cup">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16">
+                      <use xlink:href="img/icons/sprite.svg#cup"></use>
+                    </svg>
+                  </div>
+                </div>
+                <div class="team-right team-right--lower">
+                  <div class="team__logo">
+                    <picture>
+                      <source srcset="img/sidebar-img/team-4@1x.webp, img/sidebar-img/team-4@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/team-4@1x.png" srcset="img/sidebar-img/team-4@2x.png 2x" alt="Логотип команды" width="36" height="36">
+                    </picture>
+                  </div>
+                  <div class="team__name">Nigma</div>
+                </div>
+              </div>
+            </div>
+            <div class="slide slide--active">
+              <div class="teams">
+                <div class="team-left">
+                  <div class="team__logo">
+                    <picture>
+                      <source srcset="img/sidebar-img/team-1@1x.webp, img/sidebar-img/team-1@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/team-1@1x.png" srcset="img/sidebar-img/team-1@2x.png 2x" alt="Логотип команды" width="36" height="36">
+                    </picture>
+                  </div>
+                  <div class="team__name">Virtus.Pro</div>
+                  <div class="team__rate">1.25</div>
+                </div>
+                <div class="center-info">
+                  <div class="top-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16">
+                      <use xlink:href="img/icons/sprite.svg#slide-top-icon"></use>
+                    </svg>
+                  </div>
+                  <div class="date">live</div>
+                  <div class="bookmaker">
+                    <picture>
+                      <source srcset="img/bookmaker@1x.webp, img/bookmaker@2x.webp 2x" type="image/webp"><img src="img/bookmaker@1x.png" srcset="img/bookmaker@2x.png 2x" alt="Логотип букмейкера" width="52" height="16">
+                    </picture>
+                  </div>
+                </div>
+                <div class="team-right">
+                  <div class="team__logo">
+                    <picture>
+                      <source srcset="img/sidebar-img/team-1@1x.webp, img/sidebar-img/team-1@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/team-1@1x.png" srcset="img/sidebar-img/team-1@2x.png 2x" alt="Логотип команды" width="36" height="36">
+                    </picture>
+                  </div>
+                  <div class="team__name">Virtus.Pro</div>
+                  <div class="team__rate">1.25</div>
+                </div>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="teams">
+                <div class="team-left">
+                  <div class="team__logo">
+                    <picture>
+                      <source srcset="img/sidebar-img/team-2@1x.webp, img/sidebar-img/team-2@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/team-2@1x.png" srcset="img/sidebar-img/team-2@2x.png 2x" alt="Логотип команды" width="36" height="36">
+                    </picture>
+                  </div>
+                  <div class="team__name">NAVI</div>
+                  <div class="team__rate">3.25</div>
+                </div>
+                <div class="center-info">
+                  <div class="top-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16">
+                      <use xlink:href="img/icons/sprite.svg#slide-top-icon"></use>
+                    </svg>
+                  </div>
+                  <div class="date-block">
+                    <div class="date__top">08:00</div>
+                    <div class="date__bottom">23:07</div>
+                  </div>
+                  <div class="bookmaker">
+                    <picture>
+                      <source srcset="img/bookmaker@1x.webp, img/bookmaker@2x.webp 2x" type="image/webp"><img src="img/bookmaker@1x.png" srcset="img/bookmaker@2x.png 2x" alt="Логотип букмейкера" width="52" height="16">
+                    </picture>
+                  </div>
+                </div>
+                <div class="team-right">
+                  <div class="team__logo">
+                    <picture>
+                      <source srcset="img/sidebar-img/team-1@1x.webp, img/sidebar-img/team-1@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/team-1@1x.png" srcset="img/sidebar-img/team-1@2x.png 2x" alt="Логотип команды" width="36" height="36">
+                    </picture>
+                  </div>
+                  <div class="team__name">Virtus.Pro</div>
+                  <div class="team__rate">1.25</div>
+                </div>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="teams">
+                <div class="team-left">
+                  <div class="team__logo">
+                    <picture>
+                      <source srcset="img/sidebar-img/team-1@1x.webp, img/sidebar-img/team-1@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/team-1@1x.png" srcset="img/sidebar-img/team-1@2x.png 2x" alt="Логотип команды" width="36" height="36">
+                    </picture>
+                  </div>
+                  <div class="team__name">Virtus.Pro</div>
+                  <div class="team__rate">1.25</div>
+                </div>
+                <div class="center-info">
+                  <div class="top-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16">
+                      <use xlink:href="img/icons/sprite.svg#slide-top-icon"></use>
+                    </svg>
+                  </div>
+                  <div class="date-block">
+                    <div class="date__top">08:00</div>
+                    <div class="date__bottom">23:07</div>
+                  </div>
+                  <div class="bookmaker">
+                    <picture>
+                      <source srcset="img/bookmaker@1x.webp, img/bookmaker@2x.webp 2x" type="image/webp"><img src="img/bookmaker@1x.png" srcset="img/bookmaker@2x.png 2x" alt="Логотип букмейкера" width="52" height="16">
+                    </picture>
+                  </div>
+                </div>
+                <div class="team-right">
+                  <div class="team__logo">
+                    <picture>
+                      <source srcset="img/sidebar-img/team-4@1x.webp, img/sidebar-img/team-4@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/team-4@1x.png" srcset="img/sidebar-img/team-4@2x.png 2x" alt="Логотип команды" width="36" height="36">
+                    </picture>
+                  </div>
+                  <div class="team__name">Nigma</div>
+                  <div class="team__rate">2.25</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mainpage-center-wrap">
+            <aside class="sidebar-left">
+              <div class="sidebar-block sidebar-block-forum">
+                <div class="sidebar-block__title sidebar-block-forum__title">Форум</div>
+                <div class="forum-messages">
+                  <div class="message">
+                    <div class="message__img">
+                      <picture>
+                        <source srcset="img/sidebar-img/forum-1@1x.webp, img/sidebar-img/forum-1@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/forum-1@1x.png" srcset="img/sidebar-img/forum-1@2x.png 2x" alt="Иконка сообщения" width="36" height="36">
+                      </picture>
+                    </div>
+                    <div class="message-content">
+                      <div class="message__text">Выйдет ли что-то круче...</div>
+                      <div class="message-info">
+                        <div class="message__autor">Dickgirl777</div>
+                        <div class="like__icon"><img src="img/icons/like.svg" width="9" height="11" alt="Количество лайков"></div>
+                        <div class="message__likes">16&nbsp;</div>
+                        <div class="message__likes-new">+2</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="message">
+                    <div class="message__img">
+                      <picture>
+                        <source srcset="img/sidebar-img/forum-2@1x.webp, img/sidebar-img/forum-2@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/forum-2@1x.png" srcset="img/sidebar-img/forum-2@2x.png 2x" alt="Иконка сообщения" width="36" height="36">
+                      </picture>
+                    </div>
+                    <div class="message-content">
+                      <div class="message__text">У меня нет мнения, что...</div>
+                      <div class="message-info">
+                        <div class="message__autor">Dickgirl777</div>
+                        <div class="like__icon"><img src="img/icons/like.svg" width="9" height="11" alt="Количество лайков"></div>
+                        <div class="message__likes">16&nbsp;</div>
+                        <div class="message__likes-new">+2</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="message">
+                    <div class="message__img">
+                      <picture>
+                        <source srcset="img/sidebar-img/forum-3@1x.webp, img/sidebar-img/forum-3@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/forum-3@1x.png" srcset="img/sidebar-img/forum-3@2x.png 2x" alt="Иконка сообщения" width="36" height="36">
+                      </picture>
+                    </div>
+                    <div class="message-content">
+                      <div class="message__text">отношение к антивирусам</div>
+                      <div class="message-info">
+                        <div class="message__autor">Dickgirl777</div>
+                        <div class="like__icon"><img src="img/icons/like.svg" width="9" height="11" alt="Количество лайков"></div>
+                        <div class="message__likes">16&nbsp;</div>
+                        <div class="message__likes-new">+2</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="message">
+                    <div class="message__img">
+                      <picture>
+                        <source srcset="img/sidebar-img/forum-4@1x.webp, img/sidebar-img/forum-4@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/forum-4@1x.png" srcset="img/sidebar-img/forum-4@2x.png 2x" alt="Иконка сообщения" width="36" height="36">
+                      </picture>
+                    </div>
+                    <div class="message-content">
+                      <div class="message__text">Как вы видите героев?</div>
+                      <div class="message-info">
+                        <div class="message__autor">Dickgirl777</div>
+                        <div class="like__icon"><img src="img/icons/like.svg" width="9" height="11" alt="Количество лайков"></div>
+                        <div class="message__likes">16&nbsp;</div>
+                        <div class="message__likes-new">+2</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="message">
+                    <div class="message__img">
+                      <picture>
+                        <source srcset="img/sidebar-img/forum-2@1x.webp, img/sidebar-img/forum-2@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/forum-2@1x.png" srcset="img/sidebar-img/forum-2@2x.png 2x" alt="Иконка сообщения" width="36" height="36">
+                      </picture>
+                    </div>
+                    <div class="message-content">
+                      <div class="message__text">5к помойка?</div>
+                      <div class="message-info">
+                        <div class="message__autor">Jenny</div>
+                        <div class="dialog__icon"><img src="img/icons/dialog.svg" width="12" height="13" alt="Иконка диалога"></div>
+                        <div class="message__likes">35&nbsp;</div>
+                        <div class="message__likes-new">+10</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="message">
+                    <div class="message__img">
+                      <picture>
+                        <source srcset="img/sidebar-img/forum-1@1x.webp, img/sidebar-img/forum-1@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/forum-1@1x.png" srcset="img/sidebar-img/forum-1@2x.png 2x" alt="Иконка сообщения" width="36" height="36">
+                      </picture>
+                    </div>
+                    <div class="message-content">
+                      <div class="message__text">Выйдет ли что-то круче...</div>
+                      <div class="message-info">
+                        <div class="message__autor">Dickgirl777</div>
+                        <div class="dialog__icon"><img src="img/icons/dialog.svg" width="12" height="13" alt="Иконка диалога"></div>
+                        <div class="message__likes">13&nbsp;</div>
+                        <div class="message__likes-new">+2</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="message">
+                    <div class="message__img">
+                      <picture>
+                        <source srcset="img/sidebar-img/forum-4@1x.webp, img/sidebar-img/forum-4@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/forum-4@1x.png" srcset="img/sidebar-img/forum-4@2x.png 2x" alt="Иконка сообщения" width="36" height="36">
+                      </picture>
+                    </div>
+                    <div class="message-content">
+                      <div class="message__text">У меня нет мнения, что...</div>
+                      <div class="message-info">
+                        <div class="message__autor">Kathryn</div>
+                        <div class="dialog__icon"><img src="img/icons/dialog.svg" width="12" height="13" alt="Иконка диалога"></div>
+                        <div class="message__likes">42&nbsp;</div>
+                        <div class="message__likes-new"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="message">
+                    <div class="message__img">
+                      <picture>
+                        <source srcset="img/sidebar-img/forum-5@1x.webp, img/sidebar-img/forum-5@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/forum-5@1x.png" srcset="img/sidebar-img/forum-5@2x.png 2x" alt="Иконка сообщения" width="36" height="36">
+                      </picture>
+                    </div>
+                    <div class="message-content">
+                      <div class="message__text">отношение к антивирусам</div>
+                      <div class="message-info">
+                        <div class="message__autor">Ralph</div>
+                        <div class="dialog__icon"><img src="img/icons/dialog.svg" width="12" height="13" alt="Иконка диалога"></div>
+                        <div class="message__likes">26&nbsp;</div>
+                        <div class="message__likes-new"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="message">
+                    <div class="message__img">
+                      <picture>
+                        <source srcset="img/sidebar-img/forum-3@1x.webp, img/sidebar-img/forum-3@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/forum-3@1x.png" srcset="img/sidebar-img/forum-3@2x.png 2x" alt="Иконка сообщения" width="36" height="36">
+                      </picture>
+                    </div>
+                    <div class="message-content">
+                      <div class="message__text">iphone 11 or 12?</div>
+                      <div class="message-info">
+                        <div class="message__autor">Brooklyn</div>
+                        <div class="dialog__icon"><img src="img/icons/dialog.svg" width="12" height="13" alt="Иконка диалога"></div>
+                        <div class="message__likes">15&nbsp;</div>
+                        <div class="message__likes-new"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="arrow-down">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16">
+                    <use xlink:href="img/icons/sprite.svg#arrow-left"></use>
+                  </svg>
+                </div>
+              </div>
+              <div class="sidebar-block sidebar-block-tournament">
+                <div class="sidebar-block__title sidebar-block-tournament__title">Турниры
+                  <div class="arrow-right">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16">
+                      <use xlink:href="img/icons/sprite.svg#arrow-left"></use>
+                    </svg>
+                  </div>
+                </div>
+                <div class="sidebar-block-tournament__subtitle">Предстоящие</div>
+                <div class="tournaments">
+                  <div class="tournament">
+                    <div class="tournament__img">
+                      <picture>
+                        <source srcset="img/sidebar-img/tournament-1@1x.webp, img/sidebar-img/tournament-1@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/tournament-1@1x.png" srcset="img/sidebar-img/tournament-1@2x.png 2x" alt="Логотип турнира" width="36" height="37">
+                      </picture>
+                    </div>
+                    <div class="tournament-content">
+                      <div class="tournament__text">ONE Esports Dota 2 Invit</div>
+                      <div class="tournament-info">
+                        <div class="tournament__date">23 - 29 ноя 2020</div>
+                        <div class="tournament__prize">$500 000</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tournament">
+                    <div class="tournament__img">
+                      <picture>
+                        <source srcset="img/sidebar-img/tournament-2@2x.webp, img/sidebar-img/tournament-2@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/tournament-2@1x.png" srcset="img/sidebar-img/tournament-2@2x.png 2x" alt="Логотип турнира" width="36" height="37">
+                      </picture>
+                    </div>
+                    <div class="tournament-content">
+                      <div class="tournament__text">ONE Esports Dota 2 Invit</div>
+                      <div class="tournament-info">
+                        <div class="tournament__date">23 - 29 ноя 2020</div>
+                        <div class="tournament__prize">$500 000</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="sidebar-block-tournament__subtitle">Текущие</div>
+                <div class="tournaments">
+                  <div class="tournament">
+                    <div class="tournament__img">
+                      <picture>
+                        <source srcset="img/sidebar-img/tournament-3@1x.webp, img/sidebar-img/tournament-3@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/tournament-3@1x.png" srcset="img/sidebar-img/tournament-3@2x.png 2x" alt="Логотип турнира" width="36" height="37">
+                      </picture>
+                    </div>
+                    <div class="tournament-content">
+                      <div class="tournament__text">ONE Esports Dota 2 Invit</div>
+                      <div class="tournament-info">
+                        <div class="tournament__date">23 - 29 ноя 2020</div>
+                        <div class="tournament__prize">$500 000</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tournament">
+                    <div class="tournament__img">
+                      <picture>
+                        <source srcset="img/sidebar-img/tournament-4@1x.webp, img/sidebar-img/tournament-4@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/tournament-4@1x.png" srcset="img/sidebar-img/tournament-4@2x.png 2x" alt="Логотип турнира" width="36" height="37">
+                      </picture>
+                    </div>
+                    <div class="tournament-content">
+                      <div class="tournament__text">ONE Esports Dota 2 Invit</div>
+                      <div class="tournament-info">
+                        <div class="tournament__date">23 - 29 ноя 2020</div>
+                        <div class="tournament__prize">$500 000</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="sidebar-block-tournament__subtitle">Завершенные</div>
+                <div class="tournaments">
+                  <div class="tournament">
+                    <div class="tournament__img">
+                      <picture>
+                        <source srcset="img/sidebar-img/tournament-5@1x.webp, img/sidebar-img/tournament-5@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/tournament-5@1x.png" srcset="img/sidebar-img/tournament-5@2x.png 2x" alt="Логотип турнира" width="36" height="37">
+                      </picture>
+                    </div>
+                    <div class="tournament-content">
+                      <div class="tournament__text">ONE Esports Dota 2 Invit</div>
+                      <div class="tournament-info">
+                        <div class="tournament__date">23 - 29 ноя 2020</div>
+                        <div class="tournament__prize">$500 000</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tournament">
+                    <div class="tournament__img">
+                      <picture>
+                        <source srcset="img/sidebar-img/tournament-6@1x.webp, img/sidebar-img/tournament-6@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/tournament-6@1x.png" srcset="img/sidebar-img/tournament-6@2x.png 2x" alt="Логотип турнира" width="36" height="37">
+                      </picture>
+                    </div>
+                    <div class="tournament-content">
+                      <div class="tournament__text">ONE Esports Dota 2 Invit</div>
+                      <div class="tournament-info">
+                        <div class="tournament__date">23 - 29 ноя 2020</div>
+                        <div class="tournament__prize">$500 000</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="sidebar-block sidebar-block-teams">
+                <div class="sidebar-block__title sidebar-block-teams__title">Команды</div>
+                <div class="teams">
+                  <div class="team">
+                    <div class="team__number">1</div>
+                    <div class="team__img">
+                      <picture>
+                        <source srcset="img/sidebar-img/team-1@1x.webp, img/sidebar-img/team-1@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/team-1@1x.png" srcset="img/sidebar-img/team-1@2x.png 2x" alt="Логотип команды" width="36" height="36">
+                      </picture>
+                    </div>
+                    <div class="team-content">
+                      <div class="team__name">Virtus.Pro</div>
+                      <div class="team-info">
+                        <div class="team__flag">
+                          <picture>
+                            <source srcset="img/sidebar-img/flag-russia@1x.webp, img/sidebar-img/flag-russia@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/flag-russia@1x.png" srcset="img/sidebar-img/flag-russia@2x.png 2x" alt="Флаг страны команды" width="16" height="10">
+                          </picture>
+                        </div>
+                        <div class="team__country">Россия</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="team">
+                    <div class="team__number">2</div>
+                    <div class="team__img">
+                      <picture>
+                        <source srcset="img/sidebar-img/team-2@1x.webp, img/sidebar-img/team-2@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/team-2@1x.png" srcset="img/sidebar-img/team-2@2x.png 2x" alt="Логотип команды" width="36" height="36">
+                      </picture>
+                    </div>
+                    <div class="team-content">
+                      <div class="team__name">Natus Vincere</div>
+                      <div class="team-info">
+                        <div class="team__flag">
+                          <picture>
+                            <source srcset="img/sidebar-img/flag-ukraine@1x.webp, img/sidebar-img/flag-ukraine@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/flag-ukraine@1x.png" srcset="img/sidebar-img/flag-ukraine@2x.png 2x" alt="Флаг страны команды" width="16" height="10">
+                          </picture>
+                        </div>
+                        <div class="team__country">Украина</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="team">
+                    <div class="team__number">3</div>
+                    <div class="team__img">
+                      <picture>
+                        <source srcset="img/sidebar-img/team-3@1x.webp, img/sidebar-img/team-3@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/team-3@1x.png" srcset="img/sidebar-img/team-3@2x.png 2x" alt="Логотип команды" width="36" height="36">
+                      </picture>
+                    </div>
+                    <div class="team-content">
+                      <div class="team__name">OG</div>
+                      <div class="team-info">
+                        <div class="team__flag">
+                          <picture>
+                            <source srcset="img/sidebar-img/flag-eu@1x.webp, img/sidebar-img/flag-eu@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/flag-eu@1x.png" srcset="img/sidebar-img/flag-eu@2x.png 2x" alt="Флаг страны команды" width="16" height="10">
+                          </picture>
+                        </div>
+                        <div class="team__country">Европа</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="team">
+                    <div class="team__number">4</div>
+                    <div class="team__img">
+                      <picture>
+                        <source srcset="img/sidebar-img/team-4@1x.webp, img/sidebar-img/team-4@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/team-4@1x.png" srcset="img/sidebar-img/team-4@2x.png 2x" alt="Логотип команды" width="36" height="36">
+                      </picture>
+                    </div>
+                    <div class="team-content">
+                      <div class="team__name">Nigma</div>
+                      <div class="team-info">
+                        <div class="team__flag">
+                          <picture>
+                            <source srcset="img/sidebar-img/flag-eu@1x.webp, img/sidebar-img/flag-eu@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/flag-eu@1x.png" srcset="img/sidebar-img/flag-eu@2x.png 2x" alt="Флаг страны команды" width="16" height="10">
+                          </picture>
+                        </div>
+                        <div class="team__country">Европа</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="team">
+                    <div class="team__number">5</div>
+                    <div class="team__img">
+                      <picture>
+                        <source srcset="img/sidebar-img/team-5@1x.webp, img/sidebar-img/team-5@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/team-5@1x.png" srcset="img/sidebar-img/team-5@2x.png 2x" alt="Логотип команды" width="36" height="36">
+                      </picture>
+                    </div>
+                    <div class="team-content">
+                      <div class="team__name">Evil Geniuses</div>
+                      <div class="team-info">
+                        <div class="team__flag">
+                          <picture>
+                            <source srcset="img/sidebar-img/flag-us@1x.webp, img/sidebar-img/flag-us@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/flag-us@1x.png" srcset="img/sidebar-img/flag-us@2x.png 2x" alt="Флаг страны команды" width="16" height="10">
+                          </picture>
+                        </div>
+                        <div class="team__country">США</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="team">
+                    <div class="team__number">6</div>
+                    <div class="team__img">
+                      <picture>
+                        <source srcset="img/sidebar-img/team-6@1x.webp, img/sidebar-img/team-6@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/team-6@1x.png" srcset="img/sidebar-img/team-6@2x.png 2x" alt="Логотип команды" width="36" height="36">
+                      </picture>
+                    </div>
+                    <div class="team-content">
+                      <div class="team__name">Team Secret</div>
+                      <div class="team-info">
+                        <div class="team__flag">
+                          <picture>
+                            <source srcset="img/sidebar-img/flag-eu@1x.webp, img/sidebar-img/flag-eu@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/flag-eu@1x.png" srcset="img/sidebar-img/flag-eu@2x.png 2x" alt="Флаг страны команды" width="16" height="10">
+                          </picture>
+                        </div>
+                        <div class="team__country">Европа</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="sidebar-block sidebar-block-players">
+                <div class="sidebar-block__title sidebar-block-players__title">Игроки</div>
+                <div class="players">
+                  <div class="player">
+                    <div class="player__img">
+                      <picture>
+                        <source srcset="img/sidebar-img/player-1@1x.webp, img/sidebar-img/player-1@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/player-1@1x.png" srcset="img/sidebar-img/player-1@2x.png 2x" alt="Логотип команды" width="36" height="36">
+                      </picture>
+                    </div>
+                    <div class="player-content">
+                      <div class="player__name">epileptick1d</div>
+                      <div class="player-info">
+                        <div class="player-flag">
+                          <picture>
+                            <source srcset="img/sidebar-img/flag-russia@1x.webp, img/sidebar-img/flag-russia@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/flag-russia@1x.png" srcset="img/sidebar-img/flag-russia1@2x.png 2x" alt="Флаг страны команды" width="16" height="10">
+                          </picture>
+                        </div>
+                        <div class="player-country">Россия</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="player">
+                    <div class="player__img">
+                      <picture>
+                        <source srcset="img/sidebar-img/player-2@1x.webp, img/sidebar-img/player-2@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/player-2@1x.png" srcset="img/sidebar-img/player-2@2x.png 2x" alt="Логотип команды" width="36" height="36">
+                      </picture>
+                    </div>
+                    <div class="player-content">
+                      <div class="player__name">RAMZES666</div>
+                      <div class="player-info">
+                        <div class="player-flag">
+                          <picture>
+                            <source srcset="img/sidebar-img/flag-us@1x.webp, img/sidebar-img/flag-us@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/flag-us@1x.png" srcset="img/sidebar-img/flag-us@2x.png 2x" alt="Флаг страны команды" width="16" height="10">
+                          </picture>
+                        </div>
+                        <div class="player-country">США</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="player">
+                    <div class="player__img">
+                      <picture>
+                        <source srcset="img/sidebar-img/player-3@1x.webp, img/sidebar-img/player-3@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/player-3@1x.png" srcset="img/sidebar-img/player-3@2x.png 2x" alt="Логотип команды" width="36" height="36">
+                      </picture>
+                    </div>
+                    <div class="player-content">
+                      <div class="player__name">Cooman</div>
+                      <div class="player-info">
+                        <div class="player-flag">
+                          <picture>
+                            <source srcset="img/sidebar-img/flag-eu@1x.webp, img/sidebar-img/flag-eu@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/flag-eu@1x.png" srcset="img/sidebar-img/flag-eu@2x.png 2x" alt="Флаг страны команды" width="16" height="10">
+                          </picture>
+                        </div>
+                        <div class="player-country">Европа</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="player">
+                    <div class="player__img">
+                      <picture>
+                        <source srcset="img/sidebar-img/player-4@1x.webp, img/sidebar-img/player-4@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/player-4@1x.png" srcset="img/sidebar-img/player-4@2x.png 2x" alt="Логотип команды" width="36" height="36">
+                      </picture>
+                    </div>
+                    <div class="player-content">
+                      <div class="player__name">Dendi</div>
+                      <div class="player-info">
+                        <div class="player-flag">
+                          <picture>
+                            <source srcset="img/sidebar-img/flag-ukraine@1x.webp, img/sidebar-img/flag-ukraine@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/flag-ukraine@1x.png" srcset="img/sidebar-img/flag-ukraine@2x.png 2x" alt="Флаг страны команды" width="16" height="10">
+                          </picture>
+                        </div>
+                        <div class="player-country">Украина</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="player">
+                    <div class="player__img">
+                      <picture>
+                        <source srcset="img/sidebar-img/player-5@1x.webp, img/sidebar-img/player-5@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/player-5@1x.png" srcset="img/sidebar-img/player-5@2x.png 2x" alt="Логотип команды" width="36" height="36">
+                      </picture>
+                    </div>
+                    <div class="player-content">
+                      <div class="player__name">iLTW</div>
+                      <div class="player-info">
+                        <div class="player-flag">
+                          <picture>
+                            <source srcset="img/sidebar-img/flag-eu@1x.webp, img/sidebar-img/flag-eu@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/flag-eu@1x.png" srcset="img/sidebar-img/flag-eu@2x.png 2x" alt="Флаг страны команды" width="16" height="10">
+                          </picture>
+                        </div>
+                        <div class="player-country">Европа</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="player">
+                    <div class="player__img">
+                      <picture>
+                        <source srcset="img/sidebar-img/player-6@1x.webp, img/sidebar-img/player-6@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/player-6@1x.png" srcset="img/sidebar-img/player-6@2x.png 2x" alt="Логотип команды" width="36" height="36">
+                      </picture>
+                    </div>
+                    <div class="player-content">
+                      <div class="player__name">Zayac</div>
+                      <div class="player-info">
+                        <div class="player-flag">
+                          <picture>
+                            <source srcset="img/sidebar-img/flag-russia@1x.webp, img/sidebar-img/flag-russia@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/flag-russia@1x.png" srcset="img/sidebar-img/flag-russia@2x.png 2x" alt="Флаг страны команды" width="16" height="10">
+                          </picture>
+                        </div>
+                        <div class="player-country">Россия</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </aside>
+            <section class="mainpage-center">
+              <nav class="mainpage-center-nav">
+                <div class="nav-list">
+                  <div class="nav__item"><a class="nav__link" href="#!">
+                      <div class="nav__icon nav__icon--active">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32">
+                          <use xlink:href="img/icons/sprite.svg#filter-1"></use>
+                        </svg>
+                      </div></a></div>
+                  <div class="nav__item"><a class="nav__link" href="#!">
+                      <div class="nav__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32">
+                          <use xlink:href="img/icons/sprite.svg#filter-2"></use>
+                        </svg>
+                      </div></a></div>
+                  <div class="nav__item"><a class="nav__link" href="#!">
+                      <div class="nav__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32">
+                          <use xlink:href="img/icons/sprite.svg#filter-3"></use>
+                        </svg>
+                      </div></a></div>
+                  <div class="nav__item"><a class="nav__link" href="#!">
+                      <div class="nav__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32">
+                          <use xlink:href="img/icons/sprite.svg#filter-4"></use>
+                        </svg>
+                      </div></a></div>
+                  <div class="nav__item"><a class="nav__link" href="#!">
+                      <div class="nav__icon nav__icon--settings">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12" height="12">
+                          <use xlink:href="img/icons/sprite.svg#profile"></use>
+                        </svg>
+                      </div></a></div>
+                </div>
+              </nav>
+              <div class="news-block">
+                <div class="news-block-top">
+                  <div class="news-block__title">Новости</div>
+                  <div class="news-block__date">20 июля, вторник</div>
+                </div>
+                <div class="news-list">
+                  <div class="news__item">
+                    <div class="news__date">13:03</div><a class="news__title" href="#!">Обновление Dota 2 от 1 августа: раздел наград Battle Pass<span class="dialog__icon"><img src="img/icons/dialog.svg" width="12" height="13" alt="Иконка диалога"></span><span class="news__comments">12&nbsp;</span><span class="news__comments-new">+12</span></a>
+                  </div>
+                  <div class="news__item">
+                    <div class="news__date">13:03</div><a class="news__title" href="#!">Lil покинул состав Omegalil. Он уехал на море<span class="dialog__icon"><img src="img/icons/dialog.svg" width="12" height="13" alt="Иконка диалога"></span><span class="news__comments">13&nbsp;</span><span class="news__comments-new">+7</span></a>
+                  </div>
+                  <div class="news__item">
+                    <div class="news__date">13:03</div><a class="news__title" href="#!">Jfshfh178 о команде Lil: «Намошнили себе победу в квале на Омегу. Достойный результат!»<span class="dialog__icon"><img src="img/icons/dialog.svg" width="12" height="13" alt="Иконка диалога"></span><span class="news__comments">25&nbsp;</span><span class="news__comments-new">+2</span></a>
+                  </div>
+                  <div class="news__item">
+                    <div class="news__date">13:03</div><a class="news__title" href="#!">Канал Black^ на Twitch заблокировали<span class="dialog__icon"><img src="img/icons/dialog.svg" width="12" height="13" alt="Иконка диалога"></span><span class="news__comments">12&nbsp;</span><span class="news__comments-new"></span></a>
+                  </div>
+                  <div class="news__item">
+                    <div class="news__date">13:03</div><a class="news__title" href="#!">В бете Artifact 2.0 усилили синих героев<span class="dialog__icon"><img src="img/icons/dialog.svg" width="12" height="13" alt="Иконка диалога"></span><span class="news__comments">32&nbsp;</span><span class="news__comments-new">+5</span></a>
+                  </div>
+                  <div class="news__item">
+                    <div class="news__date">13:03</div><a class="news__title" href="#!">NS, Inmate и LightOfHeaven вошли в эфирную команду OMEGA League<span class="dialog__icon"><img src="img/icons/dialog.svg" width="12" height="13" alt="Иконка диалога"></span><span class="news__comments">55&nbsp;</span><span class="news__comments-new">+1</span></a>
+                  </div>
+                </div>
+                <div class="news-more"><a class="more-news" href="#!">Показать еще</a>
+                  <div class="more-news-arrow"> 
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12" height="12">
+                      <use xlink:href="img/icons/sprite.svg#arrow-left"></use>
+                    </svg>
+                  </div>
+                </div>
+                <div class="news-articles">
+                  <div class="article">
+                    <div class="article__pin">Закреплено
+                      <div class="pin">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="8" height="8">
+                          <use xlink:href="img/icons/sprite.svg#pin"></use>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="article__img">
+                      <picture>
+                        <source srcset="img/news/news-1@1x.webp, img/news/news-1@2x.webp 2x" type="image/webp"><img src="img/news/news-1@1x.png" srcset="img/news/news-1@2x.png 2x" alt="Картинка новости" width="277" height="176">
+                      </picture>
+                      <div class="article__filter">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24">
+                          <use xlink:href="img/icons/sprite.svg#filter-2"></use>
+                        </svg>
+                      </div>
+                    </div><a class="article__title" href="#!">NAVI и Virtus.pro сыграют в одной группе OMEGA League</a>
+                    <div class="article-info">
+                      <div class="article__date">Сегодня в 10:00</div>
+                      <div class="article__likes">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12" height="12">
+                          <use xlink:href="img/icons/sprite.svg#like"></use>
+                        </svg>
+                      </div>
+                      <div class="article__likes-num">16</div>
+                      <div class="article__likes--red"><img src="img/icons/like.svg" width="9" height="11" alt="Количество лайков"></div>
+                      <div class="article__newlikes-num">16</div>
+                      <div class="dialog__icon"><img src="img/icons/dialog.svg" width="12" height="13" alt="Иконка диалога"></div>
+                      <div class="article__comments-num">16</div>
+                      <div class="article__newcomments-num">+3</div>
+                    </div>
+                  </div>
+                  <div class="article">
+                    <div class="article__img">
+                      <picture>
+                        <source srcset="img/news/news-1@1x.webp, img/news/news-1@2x.webp 2x" type="image/webp"><img src="img/news/news-1@1x.png" srcset="img/news/news-1@2x.png 2x" alt="Картинка новости" width="277" height="176">
+                      </picture>
+                      <div class="article__filter">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24">
+                          <use xlink:href="img/icons/sprite.svg#filter-2"></use>
+                        </svg>
+                      </div>
+                    </div><a class="article__title" href="#!">NAVI и Virtus.pro сыграют в одной группе OMEGA League</a>
+                    <div class="article-info">
+                      <div class="article__date">Сегодня в 10:00</div>
+                      <div class="article__likes">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12" height="12">
+                          <use xlink:href="img/icons/sprite.svg#like"></use>
+                        </svg>
+                      </div>
+                      <div class="article__likes-num">16</div>
+                      <div class="article__likes--red"><img src="img/icons/like.svg" width="9" height="11" alt="Количество лайков"></div>
+                      <div class="article__newlikes-num">16</div>
+                      <div class="dialog__icon"><img src="img/icons/dialog.svg" width="12" height="13" alt="Иконка диалога"></div>
+                      <div class="article__comments-num">16</div>
+                      <div class="article__newcomments-num">+3</div>
+                    </div>
+                  </div>
+                  <div class="article">
+                    <div class="article__img">
+                      <picture>
+                        <source srcset="img/news/news-1@1x.webp, img/news/news-1@2x.webp 2x" type="image/webp"><img src="img/news/news-1@1x.png" srcset="img/news/news-1@2x.png 2x" alt="Картинка новости" width="277" height="176">
+                      </picture>
+                      <div class="article__filter">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24">
+                          <use xlink:href="img/icons/sprite.svg#filter-2"></use>
+                        </svg>
+                      </div>
+                    </div><a class="article__title" href="#!">NAVI и Virtus.pro сыграют в одной группе OMEGA League</a>
+                    <div class="article-info">
+                      <div class="article__date">Сегодня в 10:00</div>
+                      <div class="article__likes">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12" height="12">
+                          <use xlink:href="img/icons/sprite.svg#like"></use>
+                        </svg>
+                      </div>
+                      <div class="article__likes-num">16</div>
+                      <div class="article__likes--red"><img src="img/icons/like.svg" width="9" height="11" alt="Количество лайков"></div>
+                      <div class="article__newlikes-num">16</div>
+                      <div class="dialog__icon"><img src="img/icons/dialog.svg" width="12" height="13" alt="Иконка диалога"></div>
+                      <div class="article__comments-num">16</div>
+                      <div class="article__newcomments-num">+3</div>
+                    </div>
+                  </div>
+                  <div class="article">
+                    <div class="article__img">
+                      <picture>
+                        <source srcset="img/news/news-1@1x.webp, img/news/news-1@2x.webp 2x" type="image/webp"><img src="img/news/news-1@1x.png" srcset="img/news/news-1@2x.png 2x" alt="Картинка новости" width="277" height="176">
+                      </picture>
+                    </div>
+                    <div class="article__filter">
+                      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24">
+                        <use xlink:href="img/icons/sprite.svg#filter-2"></use>
+                      </svg>
+                    </div><a class="article__title" href="#!">NAVI и Virtus.pro сыграют в одной группе OMEGA League</a>
+                    <div class="article-info">
+                      <div class="article__date">Сегодня в 10:00</div>
+                      <div class="article__likes">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12" height="12">
+                          <use xlink:href="img/icons/sprite.svg#like"></use>
+                        </svg>
+                      </div>
+                      <div class="article__likes-num">16</div>
+                      <div class="article__likes--red"><img src="img/icons/like.svg" width="9" height="11" alt="Количество лайков"></div>
+                      <div class="article__newlikes-num">16</div>
+                      <div class="dialog__icon"><img src="img/icons/dialog.svg" width="12" height="13" alt="Иконка диалога"></div>
+                      <div class="article__comments-num">16</div>
+                      <div class="article__newcomments-num">+3</div>
+                    </div>
+                  </div>
+                  <div class="article">
+                    <div class="article__img">
+                      <picture>
+                        <source srcset="img/news/news-1@1x.webp, img/news/news-1@2x.webp 2x" type="image/webp"><img src="img/news/news-1@1x.png" srcset="img/news/news-1@2x.png 2x" alt="Картинка новости" width="277" height="176">
+                      </picture>
+                      <div class="article__filter">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24">
+                          <use xlink:href="img/icons/sprite.svg#filter-2"></use>
+                        </svg>
+                      </div>
+                    </div><a class="article__title" href="#!">NAVI и Virtus.pro сыграют в одной группе OMEGA League</a>
+                    <div class="article-info">
+                      <div class="article__date">Сегодня в 10:00</div>
+                      <div class="article__likes">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12" height="12">
+                          <use xlink:href="img/icons/sprite.svg#like"></use>
+                        </svg>
+                      </div>
+                      <div class="article__likes-num">16</div>
+                      <div class="article__likes--red"><img src="img/icons/like.svg" width="9" height="11" alt="Количество лайков"></div>
+                      <div class="article__newlikes-num">16</div>
+                      <div class="dialog__icon"><img src="img/icons/dialog.svg" width="12" height="13" alt="Иконка диалога"></div>
+                      <div class="article__comments-num">16</div>
+                      <div class="article__newcomments-num">+3</div>
+                    </div>
+                  </div>
+                  <div class="article">
+                    <div class="article__img">
+                      <picture>
+                        <source srcset="img/news/news-1@1x.webp, img/news/news-1@2x.webp 2x" type="image/webp"><img src="img/news/news-1@1x.png" srcset="img/news/news-1@2x.png 2x" alt="Картинка новости" width="277" height="176">
+                      </picture>
+                      <div class="article__filter">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24">
+                          <use xlink:href="img/icons/sprite.svg#filter-2"></use>
+                        </svg>
+                      </div>
+                    </div><a class="article__title" href="#!">NAVI и Virtus.pro сыграют в одной группе OMEGA League</a>
+                    <div class="article-info">
+                      <div class="article__date">Сегодня в 10:00</div>
+                      <div class="article__likes">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12" height="12">
+                          <use xlink:href="img/icons/sprite.svg#like"></use>
+                        </svg>
+                      </div>
+                      <div class="article__likes-num">16</div>
+                      <div class="article__likes--red"><img src="img/icons/like.svg" width="9" height="11" alt="Количество лайков"></div>
+                      <div class="article__newlikes-num">16</div>
+                      <div class="dialog__icon"><img src="img/icons/dialog.svg" width="12" height="13" alt="Иконка диалога"></div>
+                      <div class="article__comments-num">16</div>
+                      <div class="article__newcomments-num">+3</div>
+                    </div>
+                  </div>
+                  <div class="article">
+                    <div class="article__img">
+                      <picture>
+                        <source srcset="img/news/news-1@1x.webp, img/news/news-1@2x.webp 2x" type="image/webp"><img src="img/news/news-1@1x.png" srcset="img/news/news-1@2x.png 2x" alt="Картинка новости" width="277" height="176">
+                      </picture>
+                      <div class="article__filter">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24">
+                          <use xlink:href="img/icons/sprite.svg#filter-2"></use>
+                        </svg>
+                      </div>
+                    </div><a class="article__title" href="#!">NAVI и Virtus.pro сыграют в одной группе OMEGA League</a>
+                    <div class="article-info">
+                      <div class="article__date">Сегодня в 10:00</div>
+                      <div class="article__likes">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12" height="12">
+                          <use xlink:href="img/icons/sprite.svg#like"></use>
+                        </svg>
+                      </div>
+                      <div class="article__likes-num">16</div>
+                      <div class="article__likes--red"><img src="img/icons/like.svg" width="9" height="11" alt="Количество лайков"></div>
+                      <div class="article__newlikes-num">16</div>
+                      <div class="dialog__icon"><img src="img/icons/dialog.svg" width="12" height="13" alt="Иконка диалога"></div>
+                      <div class="article__comments-num">16</div>
+                      <div class="article__newcomments-num">+3</div>
+                    </div>
+                  </div>
+                  <div class="article">
+                    <div class="article__img">
+                      <picture>
+                        <source srcset="img/news/news-1@1x.webp, img/news/news-1@2x.webp 2x" type="image/webp"><img src="img/news/news-1@1x.png" srcset="img/news/news-1@2x.png 2x" alt="Картинка новости" width="277" height="176">
+                      </picture>
+                      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24">
+                        <use xlink:href="img/icons/sprite.svg#filter-2"></use>
+                      </svg>
+                    </div><a class="article__title" href="#!">NAVI и Virtus.pro сыграют в одной группе OMEGA League</a>
+                    <div class="article-info">
+                      <div class="article__date">Сегодня в 10:00</div>
+                      <div class="article__likes">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12" height="12">
+                          <use xlink:href="img/icons/sprite.svg#like"></use>
+                        </svg>
+                      </div>
+                      <div class="article__likes-num">16</div>
+                      <div class="article__likes--red"><img src="img/icons/like.svg" width="9" height="11" alt="Количество лайков"></div>
+                      <div class="article__newlikes-num">16</div>
+                      <div class="dialog__icon"><img src="img/icons/dialog.svg" width="12" height="13" alt="Иконка диалога"></div>
+                      <div class="article__comments-num">16</div>
+                      <div class="article__newcomments-num">+3</div>
+                    </div>
+                  </div>
+                  <div class="article">
+                    <div class="article__img">
+                      <picture>
+                        <source srcset="img/news/news-1@1x.webp, img/news/news-1@2x.webp 2x" type="image/webp"><img src="img/news/news-1@1x.png" srcset="img/news/news-1@2x.png 2x" alt="Картинка новости" width="277" height="176">
+                      </picture>
+                      <div class="article__filter">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24">
+                          <use xlink:href="img/icons/sprite.svg#filter-2"></use>
+                        </svg>
+                      </div>
+                    </div><a class="article__title" href="#!">NAVI и Virtus.pro сыграют в одной группе OMEGA League</a>
+                    <div class="article-info">
+                      <div class="article__date">Сегодня в 10:00</div>
+                      <div class="article__likes">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12" height="12">
+                          <use xlink:href="img/icons/sprite.svg#like"></use>
+                        </svg>
+                      </div>
+                      <div class="article__likes-num">16</div>
+                      <div class="article__likes--red"><img src="img/icons/like.svg" width="9" height="11" alt="Количество лайков"></div>
+                      <div class="article__newlikes-num">16</div>
+                      <div class="dialog__icon"><img src="img/icons/dialog.svg" width="12" height="13" alt="Иконка диалога"></div>
+                      <div class="article__comments-num">16</div>
+                      <div class="article__newcomments-num">+3</div>
+                    </div>
+                  </div>
+                  <div class="article">
+                    <div class="article__img">
+                      <picture>
+                        <source srcset="img/news/news-1@1x.webp, img/news/news-1@2x.webp 2x" type="image/webp"><img src="img/news/news-1@1x.png" srcset="img/news/news-1@2x.png 2x" alt="Картинка новости" width="277" height="176">
+                      </picture>
+                      <div class="article__filter">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24">
+                          <use xlink:href="img/icons/sprite.svg#filter-2"></use>
+                        </svg>
+                      </div>
+                    </div><a class="article__title" href="#!">NAVI и Virtus.pro сыграют в одной группе OMEGA League</a>
+                    <div class="article-info">
+                      <div class="article__date">Сегодня в 10:00</div>
+                      <div class="article__likes">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12" height="12">
+                          <use xlink:href="img/icons/sprite.svg#like"></use>
+                        </svg>
+                      </div>
+                      <div class="article__likes-num">16</div>
+                      <div class="article__likes--red"><img src="img/icons/like.svg" width="9" height="11" alt="Количество лайков"></div>
+                      <div class="article__newlikes-num">16</div>
+                      <div class="dialog__icon"><img src="img/icons/dialog.svg" width="12" height="13" alt="Иконка диалога"></div>
+                      <div class="article__comments-num">16</div>
+                      <div class="article__newcomments-num">+3</div>
+                    </div>
+                  </div>
+                  <div class="article">
+                    <div class="article__img">
+                      <picture>
+                        <source srcset="img/news/news-1@1x.webp, img/news/news-1@2x.webp 2x" type="image/webp"><img src="img/news/news-1@1x.png" srcset="img/news/news-1@2x.png 2x" alt="Картинка новости" width="277" height="176">
+                      </picture>
+                      <div class="article__filter">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24">
+                          <use xlink:href="img/icons/sprite.svg#filter-2"></use>
+                        </svg>
+                      </div>
+                    </div><a class="article__title" href="#!">NAVI и Virtus.pro сыграют в одной группе OMEGA League</a>
+                    <div class="article-info">
+                      <div class="article__date">Сегодня в 10:00</div>
+                      <div class="article__likes">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12" height="12">
+                          <use xlink:href="img/icons/sprite.svg#like"></use>
+                        </svg>
+                      </div>
+                      <div class="article__likes-num">16</div>
+                      <div class="article__likes--red"><img src="img/icons/like.svg" width="9" height="11" alt="Количество лайков"></div>
+                      <div class="article__newlikes-num">16</div>
+                      <div class="dialog__icon"><img src="img/icons/dialog.svg" width="12" height="13" alt="Иконка диалога"></div>
+                      <div class="article__comments-num">16</div>
+                      <div class="article__newcomments-num">+3</div>
+                    </div>
+                  </div>
+                  <div class="article">
+                    <div class="article__img">
+                      <picture>
+                        <source srcset="img/news/news-1@1x.webp, img/news/news-1@2x.webp 2x" type="image/webp"><img src="img/news/news-1@1x.png" srcset="img/news/news-1@2x.png 2x" alt="Картинка новости" width="277" height="176">
+                      </picture>
+                      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24">
+                        <use xlink:href="img/icons/sprite.svg#filter-2"></use>
+                      </svg>
+                      <div class="article__filter">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24"></svg>
+                      </div>
+                    </div><a class="article__title" href="#!">NAVI и Virtus.pro сыграют в одной группе OMEGA League</a>
+                    <div class="article-info">
+                      <div class="article__date">Сегодня в 10:00</div>
+                      <div class="article__likes">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12" height="12">
+                          <use xlink:href="img/icons/sprite.svg#like"></use>
+                        </svg>
+                      </div>
+                      <div class="article__likes-num">16</div>
+                      <div class="article__likes--red"><img src="img/icons/like.svg" width="9" height="11" alt="Количество лайков"></div>
+                      <div class="article__newlikes-num">16</div>
+                      <div class="dialog__icon"><img src="img/icons/dialog.svg" width="12" height="13" alt="Иконка диалога"></div>
+                      <div class="article__comments-num">16</div>
+                      <div class="article__newcomments-num">+3</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="news-block-bottom">
+                  <div class="news-more news-more--bottom"> <a class="more-news" href="#!">Загрузить еще</a>
+                    <div class="more-news-arrow"> 
+                      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12" height="12">
+                        <use xlink:href="img/icons/sprite.svg#arrow-left"></use>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <aside class="sidebar-left">
+              <div class="banner-block">
+                <picture>
+                  <source srcset="img/sidebar-img/banner@1x.webp, img/sidebar-img/banner@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/banner@1x.png" srcset="img/sidebar-img/banner@2x.png 2x" alt="Логотип команды" width="301" height="504">
+                </picture>
+              </div>
+              <div class="sidebar-block sidebar-block-mems">
+                <div class="sidebar-block__title sidebar-block-mems__title">Мемы</div>
+                <div class="mems">
+                  <div class="mem">
+                    <picture>
+                      <source srcset="img/sidebar-img/mem-1@1x.webp, img/sidebar-img/mem-1@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/mem-1@1x.png" srcset="img/sidebar-img/mem-1@2x.png 2x" alt="Картинка новости" width="300" height="292">
+                    </picture>
+                    <div class="arrow__left">
+                      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="6" height="10">
+                        <use xlink:href="img/icons/sprite.svg#arrow-left"></use>
+                      </svg>
+                    </div>
+                    <div class="arrow__right">
+                      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="6" height="10">
+                        <use xlink:href="img/icons/sprite.svg#arrow-left"></use>
+                      </svg>
+                    </div>
+                    <div class="mem-info">
+                      <div class="mem__avatar"></div>
+                      <div class="mem__author">MyGabenIsTheBest</div>
+                      <div class="mem__likes">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12" height="12">
+                          <use xlink:href="img/icons/sprite.svg#like"></use>
+                        </svg>
+                      </div>
+                      <div class="mem__likes-num">16</div>
+                      <div class="dialog__icon"><img src="img/icons/dialog.svg" width="12" height="13" alt="Иконка диалога"></div>
+                      <div class="mem__comments-num">16</div>
+                      <div class="mem__newcomments-num">+2</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="footer-top">
+          <div class="container">
+            <div class="footer-top-inner">
+              <div class="count-block"><img src="img/count-img.png" width="88" height="31" alt="Счетчик"></div>
+              <div class="age-warning">18+</div>
+              <nav class="footer-nav" role="menu">
+                <ul class="nav-list">
+                                <li class="nav__item" role="menuitem"><a class="nav__link" href="#">Обратаная связь</a></li>
+                                <li class="nav__item" role="menuitem"><a class="nav__link" href="#">Вакансии</a></li>
+                                <li class="nav__item" role="menuitem"><a class="nav__link" href="#">Реклама</a></li>
+                                <li class="nav__item" role="menuitem"><a class="nav__link" href="#">Контакты</a></li>
+                                <li class="nav__item" role="menuitem"><a class="nav__link" href="#">Политика конфиденциальности</a></li>
+                </ul>
+              </nav>
+              <ul class="social-list">
+                <div class="social__item"><a class="social__link" href="#!">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21" height="12">
+                      <use xlink:href="img/icons/sprite.svg#vk"></use>
+                    </svg></a></div>
+                <div class="social__item"><a class="social__link" href="#!">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="16">
+                      <use xlink:href="img/icons/sprite.svg#telegram"></use>
+                    </svg></a></div>
+                <div class="social__item"><a class="social__link" href="#!">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="14">
+                      <use xlink:href="img/icons/sprite.svg#twitter"></use>
+                    </svg></a></div>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="container">
+            <div class="footer-bottom-inner">
+              <div class="copyright">© 2010-2020 Все права защищены</div>
+              <div class="security">
+                <div class="security__text">Защита сайта от DDoS атак -  </div><a class="security__link" href="#!">StormWall</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
