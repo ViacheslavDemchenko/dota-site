@@ -47,12 +47,19 @@
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16">
                   <use xlink:href="img/icons/sprite.svg#login"></use>
                 </svg><a class="login__text" href="#!">Войти</a>
-              </div><a class="userboard-avatar" href="#!"><img src="img/avatar.jpg" width="40" height="40" alt="Аватар пользователя"></a>
+              </div><a class="userboard-avatar" href="#!">
+                <picture>
+                  <source srcset="img/avatar@1x.webp, img/avatar@2x.webp 2x" type="image/webp"><img src="img/avatar@1x.png" srcset="img/avatar@2x.png 2x" alt="Аватар пользователя" width="40" height="40">
+                </picture></a>
             </div>
           </div>
           <div class="user-menu">
             <div class="user-menu-top">
-              <div class="user-menu__avator"><img src="img/avatar.jpg" width="40" height="40" alt="Аватар пользователя"></div>
+              <div class="user-menu__avator">
+                <picture>
+                  <source srcset="img/avatar@1x.webp, img/avatar@2x.webp 2x" type="image/webp"><img src="img/avatar@1x.png" srcset="img/avatar@2x.png 2x" alt="Аватар пользователя" width="40" height="40">
+                </picture>
+              </div>
               <div class="user-menu-ihfo"><a class="user__name" href="#!">deadmoby</a><a class="user__affiliation" href="#!">Команда сайта</a></div>
             </div>
             <div class="user-menu-list">
@@ -459,12 +466,10 @@
                       </div>
                     </div>
                   </div>
-                </div>
-                <div class="arrow-down">
+                </div><a class="arrow-down" href="#!">
                   <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16">
                     <use xlink:href="img/icons/sprite.svg#arrow-left"></use>
-                  </svg>
-                </div>
+                  </svg></a>
               </div>
               <div class="sidebar-block sidebar-block-tournament">
                 <div class="sidebar-block__title sidebar-block-tournament__title">Турниры
@@ -869,23 +874,11 @@
                   </div>
                 </div>
                 <div class="news-articles">
-                  <div class="article">
-                    <div class="article__pin">Закреплено
-                      <div class="pin">
-                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="8" height="8">
-                          <use xlink:href="img/icons/sprite.svg#pin"></use>
-                        </svg>
-                      </div>
-                    </div>
-                    <div class="article__img">
+                  <div class="article article--pinned">
+                    <div class="article__img article--filter">
                       <picture>
                         <source srcset="img/news/news-1@1x.webp, img/news/news-1@2x.webp 2x" type="image/webp"><img src="img/news/news-1@1x.png" srcset="img/news/news-1@2x.png 2x" alt="Картинка новости" width="277" height="176">
                       </picture>
-                      <div class="article__filter">
-                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24">
-                          <use xlink:href="img/icons/sprite.svg#filter-2"></use>
-                        </svg>
-                      </div>
                     </div><a class="article__title" href="#!">NAVI и Virtus.pro сыграют в одной группе OMEGA League</a>
                     <div class="article-info">
                       <div class="article__date">Сегодня в 10:00</div>
@@ -903,16 +896,11 @@
                     </div>
                   </div>
                   <div class="article">
-                    <div class="article__img">
+                    <div class="article__img article--filter">
                       <picture>
-                        <source srcset="img/news/news-1@1x.webp, img/news/news-1@2x.webp 2x" type="image/webp"><img src="img/news/news-1@1x.png" srcset="img/news/news-1@2x.png 2x" alt="Картинка новости" width="277" height="176">
+                        <source srcset="img/news/news-2@1x.webp, img/news/news-2@2x.webp 2x" type="image/webp"><img src="img/news/news-2@1x.png" srcset="img/news/news-2@2x.png 2x" alt="Картинка новости" width="277" height="176">
                       </picture>
-                      <div class="article__filter">
-                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24">
-                          <use xlink:href="img/icons/sprite.svg#filter-2"></use>
-                        </svg>
-                      </div>
-                    </div><a class="article__title" href="#!">NAVI и Virtus.pro сыграют в одной группе OMEGA League</a>
+                    </div><a class="article__title" href="#!">NAVI, FlyToMoon и VP.Prodigy вылетели с OGA Dota PIT Season 2</a>
                     <div class="article-info">
                       <div class="article__date">Сегодня в 10:00</div>
                       <div class="article__likes">
@@ -929,16 +917,11 @@
                     </div>
                   </div>
                   <div class="article">
-                    <div class="article__img">
+                    <div class="article__img article--filter">
                       <picture>
-                        <source srcset="img/news/news-1@1x.webp, img/news/news-1@2x.webp 2x" type="image/webp"><img src="img/news/news-1@1x.png" srcset="img/news/news-1@2x.png 2x" alt="Картинка новости" width="277" height="176">
+                        <source srcset="img/news/news-3@1x.webp, img/news/news-3@2x.webp 2x" type="image/webp"><img src="img/news/news-3@1x.png" srcset="img/news/news-3@2x.png 2x" alt="Картинка новости" width="277" height="176">
                       </picture>
-                      <div class="article__filter">
-                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24">
-                          <use xlink:href="img/icons/sprite.svg#filter-2"></use>
-                        </svg>
-                      </div>
-                    </div><a class="article__title" href="#!">NAVI и Virtus.pro сыграют в одной группе OMEGA League</a>
+                    </div><a class="article__title" href="#!">MagicaL стал игроком Cyber Legacy</a>
                     <div class="article-info">
                       <div class="article__date">Сегодня в 10:00</div>
                       <div class="article__likes">
@@ -955,16 +938,11 @@
                     </div>
                   </div>
                   <div class="article">
-                    <div class="article__img">
+                    <div class="article__img article--filter">
                       <picture>
-                        <source srcset="img/news/news-1@1x.webp, img/news/news-1@2x.webp 2x" type="image/webp"><img src="img/news/news-1@1x.png" srcset="img/news/news-1@2x.png 2x" alt="Картинка новости" width="277" height="176">
+                        <source srcset="img/news/news-4@1x.webp, img/news/news-4@2x.webp 2x" type="image/webp"><img src="img/news/news-4@1x.png" srcset="img/news/news-4@2x.png 2x" alt="Картинка новости" width="277" height="176">
                       </picture>
-                    </div>
-                    <div class="article__filter">
-                      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24">
-                        <use xlink:href="img/icons/sprite.svg#filter-2"></use>
-                      </svg>
-                    </div><a class="article__title" href="#!">NAVI и Virtus.pro сыграют в одной группе OMEGA League</a>
+                    </div><a class="article__title" href="#!">RuHub извинилась за высказывания LighTofHeaveN про OG в прямом...     </a>
                     <div class="article-info">
                       <div class="article__date">Сегодня в 10:00</div>
                       <div class="article__likes">
@@ -981,16 +959,11 @@
                     </div>
                   </div>
                   <div class="article">
-                    <div class="article__img">
+                    <div class="article__img article--filter">
                       <picture>
-                        <source srcset="img/news/news-1@1x.webp, img/news/news-1@2x.webp 2x" type="image/webp"><img src="img/news/news-1@1x.png" srcset="img/news/news-1@2x.png 2x" alt="Картинка новости" width="277" height="176">
+                        <source srcset="img/news/news-5@1x.webp, img/news/news-5@2x.webp 2x" type="image/webp"><img src="img/news/news-5@1x.png" srcset="img/news/news-5@2x.png 2x" alt="Картинка новости" width="277" height="176">
                       </picture>
-                      <div class="article__filter">
-                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24">
-                          <use xlink:href="img/icons/sprite.svg#filter-2"></use>
-                        </svg>
-                      </div>
-                    </div><a class="article__title" href="#!">NAVI и Virtus.pro сыграют в одной группе OMEGA League</a>
+                    </div><a class="article__title" href="#!">Alliance и Nigma вышли в финал верхней сетки OGA Dota PIT Season...</a>
                     <div class="article-info">
                       <div class="article__date">Сегодня в 10:00</div>
                       <div class="article__likes">
@@ -1007,16 +980,11 @@
                     </div>
                   </div>
                   <div class="article">
-                    <div class="article__img">
+                    <div class="article__img article--filter">
                       <picture>
-                        <source srcset="img/news/news-1@1x.webp, img/news/news-1@2x.webp 2x" type="image/webp"><img src="img/news/news-1@1x.png" srcset="img/news/news-1@2x.png 2x" alt="Картинка новости" width="277" height="176">
+                        <source srcset="img/news/news-6@1x.webp, img/news/news-6@2x.webp 2x" type="image/webp"><img src="img/news/news-6@1x.png" srcset="img/news/news-6@2x.png 2x" alt="Картинка новости" width="277" height="176">
                       </picture>
-                      <div class="article__filter">
-                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24">
-                          <use xlink:href="img/icons/sprite.svg#filter-2"></use>
-                        </svg>
-                      </div>
-                    </div><a class="article__title" href="#!">NAVI и Virtus.pro сыграют в одной группе OMEGA League</a>
+                    </div><a class="article__title" href="#!">Мошенники подделывают матчи с участием профессиональных...</a>
                     <div class="article-info">
                       <div class="article__date">Сегодня в 10:00</div>
                       <div class="article__likes">
@@ -1033,16 +1001,11 @@
                     </div>
                   </div>
                   <div class="article">
-                    <div class="article__img">
+                    <div class="article__img article--filter">
                       <picture>
-                        <source srcset="img/news/news-1@1x.webp, img/news/news-1@2x.webp 2x" type="image/webp"><img src="img/news/news-1@1x.png" srcset="img/news/news-1@2x.png 2x" alt="Картинка новости" width="277" height="176">
+                        <source srcset="img/news/news-7@1x.webp, img/news/news-7@2x.webp 2x" type="image/webp"><img src="img/news/news-7@1x.png" srcset="img/news/news-7@2x.png 2x" alt="Картинка новости" width="277" height="176">
                       </picture>
-                      <div class="article__filter">
-                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24">
-                          <use xlink:href="img/icons/sprite.svg#filter-2"></use>
-                        </svg>
-                      </div>
-                    </div><a class="article__title" href="#!">NAVI и Virtus.pro сыграют в одной группе OMEGA League</a>
+                    </div><a class="article__title" href="#!">Maelstorm о Virtus.pro: «Думаю, что по умолчанию инвайты...</a>
                     <div class="article-info">
                       <div class="article__date">Сегодня в 10:00</div>
                       <div class="article__likes">
@@ -1059,14 +1022,11 @@
                     </div>
                   </div>
                   <div class="article">
-                    <div class="article__img">
+                    <div class="article__img article--filter">
                       <picture>
-                        <source srcset="img/news/news-1@1x.webp, img/news/news-1@2x.webp 2x" type="image/webp"><img src="img/news/news-1@1x.png" srcset="img/news/news-1@2x.png 2x" alt="Картинка новости" width="277" height="176">
+                        <source srcset="img/news/news-8@1x.webp, img/news/news-8@2x.webp 2x" type="image/webp"><img src="img/news/news-8@1x.png" srcset="img/news/news-8@2x.png 2x" alt="Картинка новости" width="277" height="176">
                       </picture>
-                      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24">
-                        <use xlink:href="img/icons/sprite.svg#filter-2"></use>
-                      </svg>
-                    </div><a class="article__title" href="#!">NAVI и Virtus.pro сыграют в одной группе OMEGA League</a>
+                    </div><a class="article__title" href="#!">Maelstorm о Virtus.pro: «Думаю, что по умолчанию инвайты...</a>
                     <div class="article-info">
                       <div class="article__date">Сегодня в 10:00</div>
                       <div class="article__likes">
@@ -1083,16 +1043,11 @@
                     </div>
                   </div>
                   <div class="article">
-                    <div class="article__img">
+                    <div class="article__img article--filter">
                       <picture>
-                        <source srcset="img/news/news-1@1x.webp, img/news/news-1@2x.webp 2x" type="image/webp"><img src="img/news/news-1@1x.png" srcset="img/news/news-1@2x.png 2x" alt="Картинка новости" width="277" height="176">
+                        <source srcset="img/news/news-9@1x.webp, img/news/news-9@2x.webp 2x" type="image/webp"><img src="img/news/news-9@1x.png" srcset="img/news/news-9@2x.png 2x" alt="Картинка новости" width="277" height="176">
                       </picture>
-                      <div class="article__filter">
-                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24">
-                          <use xlink:href="img/icons/sprite.svg#filter-2"></use>
-                        </svg>
-                      </div>
-                    </div><a class="article__title" href="#!">NAVI и Virtus.pro сыграют в одной группе OMEGA League</a>
+                    </div><a class="article__title" href="#!">Maelstorm о Virtus.pro: «Думаю, что по умолчанию инвайты...</a>
                     <div class="article-info">
                       <div class="article__date">Сегодня в 10:00</div>
                       <div class="article__likes">
@@ -1109,16 +1064,11 @@
                     </div>
                   </div>
                   <div class="article">
-                    <div class="article__img">
+                    <div class="article__img article--filter">
                       <picture>
-                        <source srcset="img/news/news-1@1x.webp, img/news/news-1@2x.webp 2x" type="image/webp"><img src="img/news/news-1@1x.png" srcset="img/news/news-1@2x.png 2x" alt="Картинка новости" width="277" height="176">
+                        <source srcset="img/news/news-10@1x.webp, img/news/news-10@2x.webp 2x" type="image/webp"><img src="img/news/news-10@1x.png" srcset="img/news/news-10@2x.png 2x" alt="Картинка новости" width="277" height="176">
                       </picture>
-                      <div class="article__filter">
-                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24">
-                          <use xlink:href="img/icons/sprite.svg#filter-2"></use>
-                        </svg>
-                      </div>
-                    </div><a class="article__title" href="#!">NAVI и Virtus.pro сыграют в одной группе OMEGA League</a>
+                    </div><a class="article__title" href="#!">Maelstorm о Virtus.pro: «Думаю, что по умолчанию инвайты...</a>
                     <div class="article-info">
                       <div class="article__date">Сегодня в 10:00</div>
                       <div class="article__likes">
@@ -1135,16 +1085,11 @@
                     </div>
                   </div>
                   <div class="article">
-                    <div class="article__img">
+                    <div class="article__img article--filter">
                       <picture>
-                        <source srcset="img/news/news-1@1x.webp, img/news/news-1@2x.webp 2x" type="image/webp"><img src="img/news/news-1@1x.png" srcset="img/news/news-1@2x.png 2x" alt="Картинка новости" width="277" height="176">
+                        <source srcset="img/news/news-11@1x.webp, img/news/news-11@2x.webp 2x" type="image/webp"><img src="img/news/news-11@1x.png" srcset="img/news/news-11@2x.png 2x" alt="Картинка новости" width="277" height="176">
                       </picture>
-                      <div class="article__filter">
-                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24">
-                          <use xlink:href="img/icons/sprite.svg#filter-2"></use>
-                        </svg>
-                      </div>
-                    </div><a class="article__title" href="#!">NAVI и Virtus.pro сыграют в одной группе OMEGA League</a>
+                    </div><a class="article__title" href="#!">Самые важные события уходящей недели</a>
                     <div class="article-info">
                       <div class="article__date">Сегодня в 10:00</div>
                       <div class="article__likes">
@@ -1161,17 +1106,11 @@
                     </div>
                   </div>
                   <div class="article">
-                    <div class="article__img">
+                    <div class="article__img article--filter">
                       <picture>
-                        <source srcset="img/news/news-1@1x.webp, img/news/news-1@2x.webp 2x" type="image/webp"><img src="img/news/news-1@1x.png" srcset="img/news/news-1@2x.png 2x" alt="Картинка новости" width="277" height="176">
+                        <source srcset="img/news/news-12@1x.webp, img/news/news-12@2x.webp 2x" type="image/webp"><img src="img/news/news-12@1x.png" srcset="img/news/news-12@2x.png 2x" alt="Картинка новости" width="277" height="176">
                       </picture>
-                      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24">
-                        <use xlink:href="img/icons/sprite.svg#filter-2"></use>
-                      </svg>
-                      <div class="article__filter">
-                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24"></svg>
-                      </div>
-                    </div><a class="article__title" href="#!">NAVI и Virtus.pro сыграют в одной группе OMEGA League</a>
+                    </div><a class="article__title" href="#!">Maelstorm о Virtus.pro: «Думаю, что по умолчанию инвайты...</a>
                     <div class="article-info">
                       <div class="article__date">Сегодня в 10:00</div>
                       <div class="article__likes">
@@ -1199,7 +1138,7 @@
                 </div>
               </div>
             </section>
-            <aside class="sidebar-left">
+            <aside class="sidebar-right">
               <div class="banner-block">
                 <picture>
                   <source srcset="img/sidebar-img/banner@1x.webp, img/sidebar-img/banner@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/banner@1x.png" srcset="img/sidebar-img/banner@2x.png 2x" alt="Логотип команды" width="301" height="504">
@@ -1210,7 +1149,7 @@
                 <div class="mems">
                   <div class="mem">
                     <picture>
-                      <source srcset="img/sidebar-img/mem-1@1x.webp, img/sidebar-img/mem-1@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/mem-1@1x.png" srcset="img/sidebar-img/mem-1@2x.png 2x" alt="Картинка новости" width="300" height="292">
+                      <source srcset="img/sidebar-img/mem-1@1x.webp, img/sidebar-img/mem-1@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/mem-1@1x.jpg" srcset="img/sidebar-img/mem-1@2x.jpg 2x" alt="Картинка новости" width="300" height="292">
                     </picture>
                     <div class="arrow__left">
                       <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="6" height="10">
@@ -1222,18 +1161,289 @@
                         <use xlink:href="img/icons/sprite.svg#arrow-left"></use>
                       </svg>
                     </div>
-                    <div class="mem-info">
-                      <div class="mem__avatar"></div>
-                      <div class="mem__author">MyGabenIsTheBest</div>
-                      <div class="mem__likes">
-                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12" height="12">
-                          <use xlink:href="img/icons/sprite.svg#like"></use>
-                        </svg>
+                  </div>
+                </div>
+                <div class="mem-info">
+                  <div class="mem__avatar">
+                    <picture>
+                      <source srcset="img/sidebar-img/mem-avatar-1@1x.webp, img/sidebar-img/mem-avatar-1@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/mem-avatar-1@1x.jpg" srcset="img/sidebar-img/mem-avatar-1@2x.jpg 2x" alt="Аватар автора мема" width="20" height="20">
+                    </picture>
+                  </div>
+                  <div class="mem__author">MyGabenIsTheBest</div>
+                  <div class="mem__likes">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12" height="12">
+                      <use xlink:href="img/icons/sprite.svg#like"></use>
+                    </svg>
+                  </div>
+                  <div class="mem__likes-num">16</div>
+                  <div class="dialog__icon"><img src="img/icons/dialog.svg" width="12" height="13" alt="Иконка диалога"></div>
+                  <div class="mem__comments-num">16</div>
+                  <div class="mem__newcomments-num">+2</div>
+                </div>
+              </div>
+              <div class="sidebar-block sidebar-block-streams">
+                <div class="sidebar-block__title sidebar-block-streams__title">Стримы</div>
+                <div class="streams">
+                  <div class="stream">
+                    <div class="stream__img">
+                      <picture>
+                        <source srcset="img/sidebar-img/stream-1@1x.webp, img/sidebar-img/stream-1@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/stream-1@1x.png" srcset="img/sidebar-img/stream-1@2x.png 2x" alt="Иконка сообщения" width="42" height="42">
+                      </picture>
+                    </div>
+                    <div class="stream-content">
+                      <div class="stream-info">
+                        <div class="stream__title">Dota2RuHub </div>
+                        <div class="stream__views-icon">
+                          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="10">
+                            <use xlink:href="img/icons/sprite.svg#view"> </use>
+                          </svg>
+                        </div><span class="stream__views-num">19231</span>
                       </div>
-                      <div class="mem__likes-num">16</div>
-                      <div class="dialog__icon"><img src="img/icons/dialog.svg" width="12" height="13" alt="Иконка диалога"></div>
-                      <div class="mem__comments-num">16</div>
-                      <div class="mem__newcomments-num">+2</div>
+                      <div class="stream__text">Reality Rift vs 496 Gaming | BO3</div>
+                    </div>
+                  </div>
+                  <div class="stream">
+                    <div class="stream__img">
+                      <picture>
+                        <source srcset="img/sidebar-img/stream-2@1x.webp, img/sidebar-img/stream-2@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/stream-2@1x.png" srcset="img/sidebar-img/stream-2@2x.png 2x" alt="Иконка сообщения" width="42" height="42">
+                      </picture>
+                    </div>
+                    <div class="stream-content">
+                      <div class="stream-info">
+                        <div class="stream__title">Stray228 </div>
+                        <div class="stream__views-icon">
+                          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="10">
+                            <use xlink:href="img/icons/sprite.svg#view"> </use>
+                          </svg>
+                        </div><span class="stream__views-num">1258</span>
+                      </div>
+                      <div class="stream__text">!dragon ХРШ EZ с 3к до 7к на ран...</div>
+                    </div>
+                  </div>
+                  <div class="stream">
+                    <div class="stream__img">
+                      <picture>
+                        <source srcset="img/sidebar-img/stream-3@1x.webp, img/sidebar-img/stream-3@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/stream-3@1x.png" srcset="img/sidebar-img/stream-3@2x.png 2x" alt="Иконка сообщения" width="42" height="42">
+                      </picture>
+                    </div>
+                    <div class="stream-content">
+                      <div class="stream-info">
+                        <div class="stream__title">ybicanoooobov </div>
+                        <div class="stream__views-icon">
+                          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="10">
+                            <use xlink:href="img/icons/sprite.svg#view"> </use>
+                          </svg>
+                        </div><span class="stream__views-num">235</span>
+                      </div>
+                      <div class="stream__text">9к !уши</div>
+                    </div>
+                  </div>
+                  <div class="stream">
+                    <div class="stream__img">
+                      <picture>
+                        <source srcset="img/sidebar-img/stream-4@1x.webp, img/sidebar-img/stream-4@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/stream-4@1x.png" srcset="img/sidebar-img/stream-4@2x.png 2x" alt="Иконка сообщения" width="42" height="42">
+                      </picture>
+                    </div>
+                    <div class="stream-content">
+                      <div class="stream-info">
+                        <div class="stream__title">Травоман </div>
+                        <div class="stream__views-icon">
+                          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="10">
+                            <use xlink:href="img/icons/sprite.svg#view"> </use>
+                          </svg>
+                        </div><span class="stream__views-num">125</span>
+                      </div>
+                      <div class="stream__text">Custom Hero Chaos!</div>
+                    </div>
+                  </div>
+                  <div class="stream">
+                    <div class="stream__img">
+                      <picture>
+                        <source srcset="img/sidebar-img/stream-5@1x.webp, img/sidebar-img/stream-5@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/stream-5@1x.png" srcset="img/sidebar-img/stream-5@2x.png 2x" alt="Иконка сообщения" width="42" height="42">
+                      </picture>
+                    </div>
+                    <div class="stream-content">
+                      <div class="stream-info">
+                        <div class="stream__title">weron8 </div>
+                        <div class="stream__views-icon">
+                          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="10">
+                            <use xlink:href="img/icons/sprite.svg#view"> </use>
+                          </svg>
+                        </div><span class="stream__views-num">55</span>
+                      </div>
+                      <div class="stream__text">Live! OG.Ceb vs CL.MagicaL &amp;...</div>
+                    </div>
+                  </div>
+                  <div class="stream">
+                    <div class="stream__img">
+                      <picture>
+                        <source srcset="img/sidebar-img/stream-5@1x.webp, img/sidebar-img/stream-5@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/stream-5@1x.png" srcset="img/sidebar-img/stream-5@2x.png 2x" alt="Иконка сообщения" width="42" height="42">
+                      </picture>
+                    </div>
+                    <div class="stream-content">
+                      <div class="stream-info">
+                        <div class="stream__title">eskobartv </div>
+                        <div class="stream__views-icon">
+                          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="10">
+                            <use xlink:href="img/icons/sprite.svg#view"> </use>
+                          </svg>
+                        </div><span class="stream__views-num">32</span>
+                      </div>
+                      <div class="stream__text">[RU/EN] Revenge Gaming vs Team ... </div>
+                    </div>
+                  </div>
+                  <div class="stream">
+                    <div class="stream__img">
+                      <picture>
+                        <source srcset="img/sidebar-img/stream-6@1x.webp, img/sidebar-img/stream-6@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/stream-6@1x.png" srcset="img/sidebar-img/stream-6@2x.png 2x" alt="Иконка сообщения" width="42" height="42">
+                      </picture>
+                    </div>
+                    <div class="stream-content">
+                      <div class="stream-info">
+                        <div class="stream__title">Ghostik </div>
+                        <div class="stream__views-icon">
+                          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="10">
+                            <use xlink:href="img/icons/sprite.svg#view"> </use>
+                          </svg>
+                        </div><span class="stream__views-num">8</span>
+                      </div>
+                      <div class="stream__text">GGBET TOP MK ВСЕЛЕННОЙ 3K ...</div>
+                    </div>
+                  </div>
+                  <div class="stream">
+                    <div class="stream__img">
+                      <picture>
+                        <source srcset="img/sidebar-img/stream-7@1x.webp, img/sidebar-img/stream-7@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/stream-1@1x.png" srcset="img/sidebar-img/stream-1@2x.png 2x" alt="Иконка сообщения" width="42" height="42">
+                      </picture>
+                    </div>
+                    <div class="stream-content">
+                      <div class="stream-info">
+                        <div class="stream__title">Dota2RuHub </div>
+                        <div class="stream__views-icon">
+                          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="10">
+                            <use xlink:href="img/icons/sprite.svg#view"> </use>
+                          </svg>
+                        </div><span class="stream__views-num">19231</span>
+                      </div>
+                      <div class="stream__text">Reality Rift vs 496 Gaming | BO3</div>
+                    </div>
+                  </div>
+                  <div class="stream">
+                    <div class="stream__img">
+                      <picture>
+                        <source srcset="img/sidebar-img/stream-8@1x.webp, img/sidebar-img/stream-8@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/stream-8@1x.png" srcset="img/sidebar-img/stream-8@2x.png 2x" alt="Иконка сообщения" width="42" height="42">
+                      </picture>
+                    </div>
+                    <div class="stream-content">
+                      <div class="stream-info">
+                        <div class="stream__title">Dota2RuHub </div>
+                        <div class="stream__views-icon">
+                          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="10">
+                            <use xlink:href="img/icons/sprite.svg#view"> </use>
+                          </svg>
+                        </div><span class="stream__views-num">19231</span>
+                      </div>
+                      <div class="stream__text">Reality Rift vs 496 Gaming | BO3    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="sidebar-block sidebar-block-videos">
+                <div class="sidebar-block__title sidebar-block-videos__title">Видео</div>
+                <div class="videos">
+                  <div class="video">
+                    <div class="video__img">
+                      <picture>
+                        <source srcset="img/sidebar-img/video-1@1x.webp, img/sidebar-img/video-1@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/video-1@1x.png" srcset="img/sidebar-img/video-1@2x.png 2x" alt="Иконка сообщения" width="100" height="57">
+                      </picture>
+                    </div>
+                    <div class="video-content">
+                      <div class="video__title">5 стримснайперов душат Стрея // Стрей играет на мидовом джаггернауте</div>
+                      <div class="video-info">
+                        <div class="video__start">3 ч назад</div>
+                        <div class="video__views-icon">
+                          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="10">
+                            <use xlink:href="img/icons/sprite.svg#view"> </use>
+                          </svg>
+                        </div>
+                        <div class="video__views-num">1623</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="video">
+                    <div class="video__img">
+                      <picture>
+                        <source srcset="img/sidebar-img/video-2@1x.webp, img/sidebar-img/video-2@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/video-2@1x.png" srcset="img/sidebar-img/video-2@2x.png 2x" alt="Иконка сообщения" width="100" height="57">
+                      </picture>
+                    </div>
+                    <div class="video-content">
+                      <div class="video__title">Стрей проверяет свой фингер на мидовом лионе / Дота 2 Patch 7.27</div>
+                      <div class="video-info">
+                        <div class="video__start">3 ч назад</div>
+                        <div class="video__views-icon">
+                          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="10">
+                            <use xlink:href="img/icons/sprite.svg#view"> </use>
+                          </svg>
+                        </div>
+                        <div class="video__views-num">1623</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="video">
+                    <div class="video__img">
+                      <picture>
+                        <source srcset="img/sidebar-img/video-3@1x.webp, img/sidebar-img/video-3@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/video-3@1x.png" srcset="img/sidebar-img/video-3@2x.png 2x" alt="Иконка сообщения" width="100" height="57">
+                      </picture>
+                    </div>
+                    <div class="video-content">
+                      <div class="video__title">5 стримснайперов душат Стрея // Стрей играет на мидовом джаггернауте</div>
+                      <div class="video-info">
+                        <div class="video__start">3 ч назад</div>
+                        <div class="video__views-icon">
+                          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="10">
+                            <use xlink:href="img/icons/sprite.svg#view"> </use>
+                          </svg>
+                        </div>
+                        <div class="video__views-num">1623</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="video">
+                    <div class="video__img">
+                      <picture>
+                        <source srcset="img/sidebar-img/video-4@1x.webp, img/sidebar-img/video-4@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/video-4@1x.png" srcset="img/sidebar-img/video-4@2x.png 2x" alt="Иконка сообщения" width="100" height="57">
+                      </picture>
+                    </div>
+                    <div class="video-content">
+                      <div class="video__title">Стрей проверяет свой фингер на мидовом лионе / Дота 2 Patch 7.27</div>
+                      <div class="video-info">
+                        <div class="video__start">3 ч назад</div>
+                        <div class="video__views-icon">
+                          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="10">
+                            <use xlink:href="img/icons/sprite.svg#view"> </use>
+                          </svg>
+                        </div>
+                        <div class="video__views-num">1623</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="video">
+                    <div class="video__img">
+                      <picture>
+                        <source srcset="img/sidebar-img/video-5@1x.webp, img/sidebar-img/video-5@2x.webp 2x" type="image/webp"><img src="img/sidebar-img/video-5@1x.png" srcset="img/sidebar-img/video-5@2x.png 2x" alt="Иконка сообщения" width="100" height="57">
+                      </picture>
+                    </div>
+                    <div class="video-content">
+                      <div class="video__title">5 стримснайперов душат Стрея // Стрей играет на мидовом джаггернауте</div>
+                      <div class="video-info">
+                        <div class="video__start">3 ч назад</div>
+                        <div class="video__views-icon">
+                          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="10">
+                            <use xlink:href="img/icons/sprite.svg#view"> </use>
+                          </svg>
+                        </div>
+                        <div class="video__views-num">1623</div>
+                      </div>
                     </div>
                   </div>
                 </div>
